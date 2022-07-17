@@ -1,10 +1,13 @@
+#ml-auto{
+    margin-left: auto;
+}
+
 .navbar-collapse.collapsing{ 
-    background: rgba(40,40,40,0.99);
+    background: rgba(40,40,40,0.95);
     text-align: center;
 }
 
 .collapse.navbar-collapse{
-    background: rgba(40,40,40,0.99) !important;
     text-align: center;
 }
 
@@ -191,7 +194,17 @@
     padding-bottom: 150px;
 }
 
-@media (max-width: 468px) {
+
+@media (max-width: 992px) {
+
+    .collapse.navbar-collapse{
+        background: rgba(40,40,40,0.95);
+        text-align: center;
+    }
+}
+
+@media (max-width: 468px) {    
+
     .copyright {
         margin: 20px;
     }
