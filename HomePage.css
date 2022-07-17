@@ -1,3 +1,13 @@
+.navbar-collapse.collapsing{ 
+    background: rgba(40,40,40,0.99);
+    text-align: center;
+}
+
+.collapse.navbar-collapse{
+    background: rgba(40,40,40,0.99) !important;
+    text-align: center;
+}
+
 .imgsizing {
     width: 200px;
     height: 100px;
@@ -13,6 +23,7 @@
     width: 100%;
     background: transparent !important;
 }
+
 .ImgBodyAlignment{
     top: 30%;
     right: 50%;
