@@ -1,3 +1,24 @@
+body{
+    background-color: #262626;
+}
+
+#ml-auto{
+    margin-left: auto;
+}
+
+.navbar-collapse.collapsing{ 
+    background: rgba(40,40,40,0.95);
+    text-align: center;
+}
+
+.collapse.navbar-collapse{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
 .imgsizing {
     width: 200px;
     height: 100px;
@@ -13,6 +34,7 @@
     width: 100%;
     background: transparent !important;
 }
+
 .ImgBodyAlignment{
     top: 30%;
     right: 50%;
@@ -34,6 +56,7 @@
 }
 
 .HeadOne {
+    color: #DDD;
     font-size: 48px;
     font-weight: bold;
 }
@@ -42,7 +65,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 16px;
-    color: gray;
+    color: #CCC;
 }
 
 .scrolloff {
@@ -64,7 +87,7 @@
 }
 
 .SpecList {
-    color: gray;
+    color: #CCC;
     font-size: 20px;
 
 }
@@ -74,8 +97,9 @@
 }
 
 .ProjectHeadTwo {
-    font-size: 16px;
-    color: gray;
+    margin-top: 5%;
+    font-size: 26px;
+    color: white;
 }
 
 .paddingCol {
@@ -161,7 +185,7 @@
 
 .fontfooterstyle {
     font-size: 16px;
-    color: black;
+    color: #CCC;
     font-weight: 500;
     margin-bottom: 10px;
     cursor: pointer;
@@ -180,7 +204,17 @@
     padding-bottom: 150px;
 }
 
-@media (max-width: 468px) {
+
+@media (max-width: 992px) {
+
+    .collapse.navbar-collapse{
+        background: rgba(40,40,40,0.95);
+        text-align: center;
+    }
+}
+
+@media (max-width: 468px) {    
+
     .copyright {
         margin: 20px;
     }
